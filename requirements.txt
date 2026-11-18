@@ -1,0 +1,10 @@
+# Python dependencies. Install a PyTorch build suitable for your runtime separately.
+chromadb
+sentence-transformers
+PyMuPDF
+pytesseract
+Pillow
+google-genai
+streamlit
+pandas
+huggingface-hub
