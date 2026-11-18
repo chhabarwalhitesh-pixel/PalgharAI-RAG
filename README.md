@@ -188,3 +188,7 @@ No repository license is included by default. Add a license only after confirmin
 **Approach:** Retrieval-Augmented Generation (RAG)  
 **Languages:** Marathi, Hindi, English  
 **Interface:** Streamlit
+
+## Data sources
+
+The project’s source portals for Palghar district reference documents are documented in [`DATA_SOURCES.md`](DATA_SOURCES.md). These are links to official government pages and document repositories; the repository does not bundle the PDFs or a prebuilt dataset. Check each document’s reuse terms before redistribution.
