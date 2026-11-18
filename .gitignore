@@ -1,0 +1,49 @@
+# Secrets
+.env
+.env.*
+!.env.example
+secrets.toml
+*.pem
+*.key
+
+# User documents and private knowledge-base data
+pdfs/
+original_pdfs/
+PalgharAI_storage/
+Palghar_AI/
+chroma_db/
+registry.json
+*_backup.zip
+*.pdf
+
+# Runtime files
+!palghar_rag.py
+!app.py
+.streamlit/*
+!.streamlit/config.toml
+.streamlit/secrets.toml
+*.log
+cloudflared
+*.db
+
+# Model caches and weights
+hf_cache/
+.cache/
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Python / editor / notebook
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
